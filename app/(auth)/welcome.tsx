@@ -7,7 +7,7 @@ import Swiper from "react-native-swiper";
 import CustomButton from "@/components/CustomButton";
 import { onboarding } from "@/constants";
 
-const Welcome = () => {
+const Home = () => {
   const swiperRef = useRef<Swiper>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -61,10 +61,10 @@ const Welcome = () => {
             ? router.replace("/(auth)/sign-up")
             : swiperRef.current?.scrollBy(1)
         }
-        className="w-10/12 mt-10 mb-5"
+        className="w-11/12 mt-10 mb-5"
       />
     </SafeAreaView>
   );
 };
 
-export default Welcome;
+export default Home;
