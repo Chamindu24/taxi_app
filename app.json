@@ -24,7 +24,7 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "output": "server",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -37,8 +37,10 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+        
       ]
     ],
+    "origin": "https://taxiapp.dev/",
     "experiments": {
       "typedRoutes": true
     }
