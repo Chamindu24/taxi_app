@@ -14,6 +14,11 @@ const Map = () => {
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}
+        tintColor="black"
+        
+        showsPointsOfInterest={false}
+        showsUserLocation={true}
+        userInterfaceStyle="light"
       />
     </View>
   );
