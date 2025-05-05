@@ -1,4 +1,5 @@
 import GoogleTextInput from '@/components/GoogleTextInput'
+import Map from '@/components/Map'
 import RideCard from '@/components/RideCard'
 import { icons, images } from '@/constants'
 import { SignedIn, SignedOut, useAuth, useUser } from '@clerk/clerk-expo'
@@ -172,6 +173,7 @@ export default function Page() {
                 Your current location
               </Text>
               <View className="flex flex-row items-center bg-transparent h-[300px]">
+                <Map/>
               </View>
             </>
 
